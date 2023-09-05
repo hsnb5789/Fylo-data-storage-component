@@ -145,7 +145,8 @@ html {
 .balance {
     position: absolute;
     top: 123px;
-    left: 80px;
+    left: 100px;
+    /* right: 0; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -190,7 +191,8 @@ html {
 
     .balance {
         top: -35px;
-        left: 370px;
+        left: revert;
+        right: 30px;
     }
 
     .tail {
