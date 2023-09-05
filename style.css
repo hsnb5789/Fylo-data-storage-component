@@ -46,7 +46,7 @@ html {
 }
 
 .nav-section {
-    width: 320px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +78,7 @@ html {
 .storage-section {
     margin-top: 1rem;
     position: relative;
-    min-width: 320px;
+    min-width: 350px;
     height: 160px;
     background-color: var(--Dark_Blue);
     padding: 20px;
@@ -153,7 +153,7 @@ html {
     height: 70px;
     border-radius: 15px;
     text-align: center;
-    background-color: var(--Pale_Blue);
+    background-color: #fff;
     color: var(--Grayish_Blue);
 }
 
@@ -175,7 +175,7 @@ html {
     }
 
     .storage-section {
-        margin: 0 0px -62px 20px;
+        margin: 0 0px -62px 40px;
         padding: 30px;
         width: 40%;
         height: 140px;
@@ -197,7 +197,7 @@ html {
         width: 0;
         height: 0;
         border-left: 0px solid transparent;
-        border-right: 30px solid var(--Pale_Blue);
+        border-right: 30px solid #fff;
         border-bottom: 40px solid transparent;
         position: absolute;
         top: 12px;
